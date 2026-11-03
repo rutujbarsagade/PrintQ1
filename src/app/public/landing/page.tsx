@@ -11,8 +11,8 @@ import { LandingCTABanner } from "./cta-banner"
 import { LandingFAQ } from "./faq"
 
 export const metadata: Metadata = {
-  title: "PrintQ - Print Smarter. No WhatsApp Needed.",
-  description: "Cloud-based Print Shop Management System. Upload print jobs, track orders, and manage your print shop efficiently.",
+  title: "PrintQ — Simple online printing and PDF tools",
+  description: "Scan a print shop QR code, upload a file, choose print settings, pay online or at the counter, and track your order.",
 }
 
 export default function LandingPage() {
@@ -21,8 +21,8 @@ export default function LandingPage() {
       <PublicNavbar />
       <main>
         <LandingHero />
-        <LandingFeatures />
         <LandingHowItWorks />
+        <LandingFeatures />
         <LandingBenefits />
         <LandingTestimonials />
         <LandingTrustedShops />
